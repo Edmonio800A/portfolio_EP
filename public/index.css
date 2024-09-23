@@ -152,6 +152,10 @@ body, html {
     background: #cb2027;
     color: white;
   }
+  .fa-github {
+    background: purple;
+    color: white;
+  }
   #aboutId {
     display: none;
   }
