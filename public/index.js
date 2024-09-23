@@ -8,12 +8,3 @@ document.getElementById('btn-about').addEventListener('click', function() {
     }
 });
 
-document.getElementById('btn-mailbox').addEventListener('click', function() {
-    let mailbox = document.getElementById('mailboxId');
-    if(mailbox.style.display == "none") {
-        mailbox.style.display = "block";
-        mailbox.style.animation = "showLinks 3.5s";
-    }else {
-        mailbox.style.display = "none";
-    }
-});
